@@ -37,8 +37,6 @@ O **Vigilant** é uma plataforma distribuída de inteligência cibernética foca
 
 Ambos os projetos são estruturados sob os princípios de **Clean Architecture** e padrão **MVVM (Model-View-ViewModel)**, garantindo desacoplamento total entre a lógica de persistência, as regras de negócio e a interface declarativa do usuário.
 
-Use o código com cuidado.┌────────────────────────────────────────────────────────┐│               Jetpack Compose (UI Layer)               │└───────────────────────────┬────────────────────────────┘│ (State / Events)┌───────────────────────────▼────────────────────────────┐│                  ViewModels & States                   │└───────────────────────────┬────────────────────────────┘│┌───────────────────────────▼────────────────────────────┐│       Core Business Logic / Crypto & Use Cases         │└───────────────────────────┬────────────────────────────┘│┌───────────────────────────▼────────────────────────────┐│      Data Repositories / Local Storage (Room/Keystore) │└───────────────────────────┬────────────────────────────┘│ (Network Calls)┌───────────────────────────▼────────────────────────────┐│       Remote Data Source / APIs (Ktor / Retrofit)      │└────────────────────────────────────────────────────────┘
-## 🛠️ Stack Tecnológica
 
 * **Linguagem:** Kotlin 2.x
 * **Ambiente de Desenvolvimento:** Android Studio / IntelliJ IDEA
